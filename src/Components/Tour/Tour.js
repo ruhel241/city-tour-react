@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import './tour.scss';
 
 const useStyles = theme => ({
     root: {
@@ -37,21 +38,21 @@ class Tour extends Component {
        
         return (
             <React.Fragment>
-                <div className={classes.root}>
+                <div className={`${classes.root} tour-box`}>
                     <Paper className={classes.paper}>
                         <Grid container spacing={2}>
                             <Grid item>
-                                <ButtonBase className={classes.image}>
+                                <ButtonBase className={`${classes.image} tour-image-btn`}>
                                     <img className={classes.img} alt="complex" src={img} />
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={12} sm container>
                                 <Grid item xs container direction="column" spacing={2}>
                                     <Grid item xs>
-                                        <Typography gutterBottom variant="h4">
+                                        <Typography gutterBottom variant="h4" className="title">
                                             {name}
                                         </Typography>
-                                        <Typography variant="body2" gutterBottom>
+                                        <Typography variant="body2" gutterBottom className="desc">
                                             {info}
                                         </Typography>
                                     </Grid>

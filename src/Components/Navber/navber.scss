@@ -7,31 +7,3 @@
         }
     }
 } 
-
-
-// Tour list Css
-#root {
-    .Tour-root-1 {
-        h4 {
-            text-transform: uppercase;
-            font-size: 26px;
-        }
-    }
-}   
-
-@media only screen and (max-width: 900px) {
-    #root {
-        .Tour-root-1 {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #root {
-        .Tour-image-3 {
-            height: auto !important;
-        }
-    }   
-}

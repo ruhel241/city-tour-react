@@ -11,7 +11,6 @@ class TourList extends Component {
                 {
                     tourData.map(tour =>  <Tour tour={tour} key={tour.id} />)
                 }
-               
             </section>
         );
     }

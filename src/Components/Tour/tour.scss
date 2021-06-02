@@ -1,0 +1,23 @@
+#root {
+    .title {
+        text-transform: uppercase;
+        font-size: 26px;
+    }
+}   
+
+@media only screen and (max-width: 900px) {
+    #root {
+        .tour-box {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #root {
+        .tour-image-btn {
+            height: auto !important;
+        }
+    }   
+}
