@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Tour from "../Tour/Tour";
-import './tourlist.scss';
 import { tourData } from '../../tourData';
+// import './tourlist.scss';
 
 class TourList extends Component {
     
