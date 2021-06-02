@@ -1,0 +1,9 @@
+#root {
+    .MuiAppBar-positionStatic {
+        position: sticky !important;
+        top: 0;
+        .logo {
+            display: flex;
+        }
+    }
+} 
